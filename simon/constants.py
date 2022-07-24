@@ -7,7 +7,7 @@ from game.casting.point import Point
 # -------------------------------------------------------------------------------------------------- 
 
 # GAME
-GAME_NAME = "Batter"
+GAME_NAME = "SIMON"
 FRAME_RATE = 60
 
 # SCREEN
@@ -24,16 +24,16 @@ FIELD_RIGHT = SCREEN_WIDTH
 
 
 # FONT
-FONT_FILE = "C:/Users/carol/OneDrive/Documents/Spring Semester 2022/cse210/week10/batter-complete/batter/assets/fonts/zorque.otf"
+FONT_FILE = "simon/assets/fonts/zorque.otf"
 FONT_SMALL = 32
 FONT_LARGE = 48
 
 # SOUND
-RED_PAD_SOUND = "C:/Users/carol/OneDrive/Documents/Spring Semester 2022/cse210/week10/batter-complete/batter/assets/sounds/red.mp3"
-GREEN_PAD_SOUND = "C:/Users/carol/OneDrive/Documents/Spring Semester 2022/cse210/week10/batter-complete/batter/assets/sounds/green.mp3"
-BLUE_PAD_SOUND = "C:/Users/carol/OneDrive/Documents/Spring Semester 2022/cse210/week10/batter-complete/batter/assets/sounds/blue.mp3"
-YELLOW_PAD_SOUND = "C:/Users/carol/OneDrive/Documents/Spring Semester 2022/cse210/week10/batter-complete/batter/assets/sounds/yellow.mp3"
-WELCOME_SOUND = "C:/Users/carol/OneDrive/Documents/Spring Semester 2022/cse210/week10/batter-complete/batter/assets/sounds/start.wav"
+RED_PAD_SOUND = "simon/assets/sounds/red.mp3"
+GREEN_PAD_SOUND = "simon/assets/sounds/green.mp3"
+BLUE_PAD_SOUND = "simon/assets/sounds/blue.mp3"
+YELLOW_PAD_SOUND = "simon/assets/sounds/yellow.mp3"
+WELCOME_SOUND = "simon/assets/sounds/start.wav"
 
 # TEXT
 ALIGN_CENTER = 0
@@ -62,7 +62,7 @@ PLAYER_TURN = 4
 GAME_OVER = 5
 
 # LEVELS
-LEVEL_FILE = "C:/Users/carol/OneDrive/Documents/Spring Semester 2022/cse210/week10/batter-complete/batter/assets/data/level-{:03}.txt"
+LEVEL_FILE = "simon/assets/data/level-{:03}.txt"
 BASE_LEVELS = 5
 
 # -------------------------------------------------------------------------------------------------- 
