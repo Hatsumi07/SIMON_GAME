@@ -8,5 +8,5 @@ class LoadAssetsAction(Action):
         self._video_service = video_service
 
     def execute(self, cast, script, callback):
-        self._audio_service.load_sounds("C:/Users/carol/OneDrive/Documents/Spring Semester 2022/cse210/week10/batter-complete/batter/assets/sounds")
-        self._video_service.load_fonts("C:/Users/carol/OneDrive/Documents/Spring Semester 2022/cse210/week10/batter-complete/batter/assets/fonts")
+        self._audio_service.load_sounds("simon/assets/sounds")
+        self._video_service.load_fonts("simon/assets/fonts")
